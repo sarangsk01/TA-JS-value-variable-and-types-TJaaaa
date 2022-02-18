@@ -9,14 +9,18 @@
 
 let num1 = 21;
 let num2 = 32;
-
+alert("21");
+alert("32");
 /*
 - Create a variable named `language` and store the value of `JavaScript` in it
 - Alert message saying `I am learning [language]`
 - Alert `The value of num1 is [num1] and the value of num2 is [num2]`
 - Alert `The sum of [num1] and [num2] is [num1 + num1]`
 */
-
+var language ="Javascript";
+alert(`I am learning ${language}`);
+alert(`The Value of num1 is ${num1} and the value of num2 is ${num2}`);
+alert(`The sum of ${num1} and ${num2} is ${num1 + num2}`);
 /*
 2. Do the following using `alert`, `prompt` and `confirm` and `console`
 
@@ -32,6 +36,16 @@ let num2 = 32;
     Adult: [isAdult]
     Profession: [userProfession]` (it should be in three different lines)
 */
+prompt("What is your name?");
+var userName = "Sarang";
+prompt("What is your profession?");
+var userProfession = "Govt.Servant";
+confirm("Are you an adult?");
+var isAdult = "Yes";
+alert(`I am ${userName} a ${userProfession}`);
+console.log(`I am ${userName} a ${userProfession}`);
+alert(`Username: ${userName} \nAdult: ${isAdult} \nProfession: ${userProfession}`);
+console.log(`Username: ${userName} \nAdult: ${isAdult} \nProfession: ${userProfession}`);
 
 /*
 . Addition using prompt
@@ -39,7 +53,16 @@ let num2 = 32;
   - Accept two number values form user and store them in `numA` and`numB`.
   - Alert the sum of both numbers. [numA + numB]
   - Alert [numA - numB]
-  - Alert [numA * numB]
+  - Alert [numA * numB].
   - Log using console.log [numA - numB]
   - Log using console.log [numA * numB]
 */
+prompt(`What is your age?`);
+prompt(`What is your city code?`);
+var numA = 22;
+var numB = 20;
+alert(`${numA + numB}`);
+alert(`${numA - numB}`);
+alert(`${numA * numB}`);
+console.log((numA - numB));
+console.log((numA * numB));
