@@ -6,8 +6,21 @@
   - `if` the number is even print the message " number is even"
   - `if` the number is odd print the message "number is odd"
 */
-
+let num =Number(prompt(`Enter a number:`));
+if (num % 2 == 0){
+    console.log(`number is even.`);
+}
+else{
+    console.log(`number is odd.`);
+}
 // 2. Write a program to accept two numbers from user using`prompt` and alert the max value.
+let num1 =Number(prompt(`Enter a number:`));
+let num2 =Number(prompt(`Enter a number:`));
+if (num1,num2>50){
+    alert(`This is the max value`);
+} else{
+    alert(`This is the min value`);
+}
 
 // 3. Convert the above code using`?` terniary operator
 
@@ -18,7 +31,15 @@
   - `if` house name is "lannister" then print the message " A lannister always pays his debt"
   - `else` print the message " All men must die"
 */
-
+let housename =(prompt(`what is your housename:`));
+switch(housename){
+    case 1:
+    alert(`Winter is coming`);
+ case 2:
+    alert(`A lannister always pays his debt`);
+  case 3:
+    alert(`All men must die`);
+}
 // 5. Convert the above code using`?` terniary operator
 
 // Switch
