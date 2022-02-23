@@ -36,7 +36,7 @@ var wiseMan = "Tyrion Lannister";
 
 // Reassign the value of `wiseMan` to "Samwell Tarly"
 wiseMan = "Samwell Tarly";
-// Declare a variable `userName` with value "Lysa Arryn"
+// Declare a variable `userName` with value "Lysa Aryn"
 let userName ="Lysa Arryn";
 // Declare a variable named `oddNumber` and assign a value `57`.
 let oddNumber =57;
