@@ -42,7 +42,7 @@ prompt("What is your profession?");
 var userProfession = "Govt.Servant";
 confirm("Are you an adult?");
 var isAdult = "Yes";
-alert(`I am ${userName} a ${userProfession}`);
+alert('I am ${userName} a ${userProfession}');
 console.log(`I am ${userName} a ${userProfession}`);
 alert(`Username: ${userName} \nAdult: ${isAdult} \nProfession: ${userProfession}`);
 console.log(`Username: ${userName} \nAdult: ${isAdult} \nProfession: ${userProfession}`);
