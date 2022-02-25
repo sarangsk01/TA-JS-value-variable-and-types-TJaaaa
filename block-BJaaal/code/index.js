@@ -22,7 +22,7 @@ alert("I\'m " + firstName + " " + lastName + " of Winterfell");
   - Alert the message `I'm Arya Stark of Winterfell` using the variable name firstName and lastName.
 */
 alert(`I am ${username} and my bio is ${bio}`);
-alert(`I' m ${firstName} ${lastName} of Winterfell`);
+alert(`I' m ${firstName} ${lastName} of Winterfall`);
 let amount = 200;
 const taxPercent = 10;
 
