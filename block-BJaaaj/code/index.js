@@ -1,5 +1,5 @@
 // Accessing and assigning.
-let firstName ="Arya";
+let firstName ="Aryan";
 let lastName = "Stark";
 
 // Do the following:
