@@ -30,7 +30,7 @@ alert(newUser);
 alert(isAdmin);
 // Assignment and re-assignment
 
-var wiseMan = "Tyrion Lannister";
+var wiseMan = 'Tyrion Lannister';
 
 // Follow instructions and do the following. In case of an error write the error in comment
 
